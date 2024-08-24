@@ -1,0 +1,26 @@
+.star-raiting-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+    .star-container {
+        display: flex;
+        gap: 4px;
+
+        .star {
+            display: block;
+            width: 25px;
+            height: 25px;
+            cursor: pointer;
+        }
+        
+    }
+
+    .rating-number {
+        width: 20px;
+        color: #fcc419;
+        line-height: 1;
+        margin: 0;
+    }
+}

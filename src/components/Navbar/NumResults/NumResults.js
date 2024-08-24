@@ -1,0 +1,11 @@
+import React from 'react';
+import './num-results.scss';
+
+const NumResults = ({movies}) => {
+
+    return (     
+        <p className="num-results">Found {movies?.length} results</p>     
+    );
+}
+
+export default NumResults;
